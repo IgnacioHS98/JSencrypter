@@ -1,0 +1,149 @@
+header{
+    background-color: white;
+}
+
+.head-div{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    background-color: white;
+    width: 50px;
+    padding: 5px 5px;
+    display: block;
+}
+
+nav{
+    position: absolute;
+    top: 25px;
+    right: 930px;
+}
+
+nav ul li{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content{
+    width: 100%;
+    background: linear-gradient(white, darkgray);
+    margin: 0 auto;
+}
+
+.content-div{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.decrypt-lbl{
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    margin: 20px 9.4%;
+}
+
+.result-lbl{
+    font-size: 20px;
+    position: absolute;
+    margin: 20px 18.8%;
+}
+
+.decrypt-txt{
+    display: inline-block;
+    margin: 50px 10%;
+    resize: none;
+    /*border-radius: 0 50px 0 50px;*/
+    border-style: solid;
+}
+
+.p-info{
+    position: relative;
+    margin: 0 14%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action-buttons{
+    width: 80%;
+    margin: 0  auto;
+}
+
+.btn-encrypt{
+    width: 10%;
+    padding: 15px 0;
+    margin: 0 20px 0 14%;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: rgb(51, 204, 204);
+    border: black, solid;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-encrypt:hover{
+    transform: scale(1.05);
+
+}
+
+.btn-decrypt{
+    width: 10%;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: darkgray;
+    border: black, solid;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-decrypt:hover{
+    transform: scale(1.05);
+
+}
+
+.btn-copy{
+    width: 12%;
+    margin-left: 32%;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: darkgray;
+    border: black, solid;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-copy:hover{
+    transform: scale(1.05);
+    background: rgb(51, 204, 204);;
+}
+
+footer{
+    padding: 80px 0;
+    background-color: darkgray;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-info{
+    padding: 20px 0;
+}
+
+
+
+
+
+

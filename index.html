@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>JSencrypter</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="head-div">
+            <h1><img src="img/encrypted.gif" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li>JSencrypter</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <section class="content">
+            <div class="content-div">
+                <label for="text" class="decrypt-lbl">Put below the text you want to encrypt or decrypt</label>
+                <textarea class="decrypt-txt" cols="60 " rows="30" id="text"></textarea>
+                <label for="result" class="result-lbl">Result</label>
+                <textarea class="decrypt-txt" cols="60" rows="30" id="result" readonly>No text entered</textarea>
+                <p class="p-info">ⓘ Don´t use special characters or accents</p>
+            </div>
+            <div class="action-buttons">
+                <button class="btn-encrypt" onclick="encrypText()">Encrypt</button>
+                <button class="btn-decrypt" onclick="decrypText()">Decrypt</button>
+                <button class="btn-copy">Copy text</button>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <footer>
+        <p>© Copyright - Ignacio Hidalgo</p>
+        <div class="contact-info">
+            <a href="https://www.instagram.com/hidalgo__ignacio/" target="_blank"><img src="img/instagram.png"></a>
+            <a href="https://github.com/IgnacioHS98" target="_blank"><img src="img/github.png"></a>
+            <a href="https://www.linkedin.com/in/ignacio-hidalgo-s/" target="_blank"><img src="img/linkedin.png"></a>
+        </div>
+        <p>2022 - all rights reserved</p>
+    </footer>
+
+
+    <script src="encrypter.js"></script>
+
+</body>
+
+
+
+</html>
